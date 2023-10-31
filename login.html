@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | ISJAI Research Hub</title>
+    <link rel="stylesheet" href="login-styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<header>
+    <div class="logo">
+        <a href="/images/logo.png"><img src="/images/logo.png" alt="logo"></a>
+    </div>
+</header>
+<footer>
+    <div class="quote">
+        <p><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH</b></p><hr>
+        <h6>© IBAAN SAINT JAMES ACADEMY, 2023</h6>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/sjalibrary"><i class='bx bxl-facebook-circle'></i></a></li>
+            <li><a href="sjalibrary15@gmail.com"><i class='bx bxs-envelope' ></i></a></li>
+            <li><a href="#"><i class='bx bxs-phone'></i></a></li>
+        </ul>
+    </div>
+</footer>
+<body>
+    <div class="wrapper">
+        <div class="form-box">
+           <h2>LOGIN</h2>
+           <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user-circle'></i>
+                <input type="text">
+                <label>USERNAME</label>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="password">
+                <label>PASSWORD</label>    
+            </div>
+            <div class="account-type">  
+                <form action="user">
+                    <div class="usertype">
+                        <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
+                            <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
+                        <datalist id="usertype-opts">
+                             <option value="ADMIN">
+                             <option value="STUDENT">
+                        </datalist>
+                    </div>
+                </form>
+            </div>
+            <button type="submit" class="btn">SUBMIT</button>
+            <div class="login-register-link">
+                <p>REGISTER NOW!<br>BE A JAMESIAN</p>
+            </div>
+            <button class="btn2"><a href="register.html" class="design">REGISTER</a></button>
+           </form> 
+        </div>
+    </div>
+</body>
+</html>

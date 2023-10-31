@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | ISJAI Research Hub</title>
+    <link rel="stylesheet" href="register-styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<header>
+    <div class="logo">
+        <a href="/images/logo.png"><img src="/images/logo.png" alt="logo"></a>
+    </div>
+</header>
+<footer>
+    <div class="quote">
+        <p><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH</b></p><hr>
+        <h6>© IBAAN SAINT JAMES ACADEMY, 2023</h6>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/sjalibrary"><i class='bx bxl-facebook-circle'></i></a></li>
+            <li><a href="sjalibrary15@gmail.com"><i class='bx bxs-envelope' ></i></a></li>
+            <li><a href="#"><i class='bx bxs-phone' ></i></a></li>
+        </ul>
+    </div>
+</footer>
+<body>
+    <div class="wrapper">
+        <div class="form-box">
+           <h2>REGISTER</h2>
+           <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user-circle'></i>
+                <input type="text" required>
+                <label>EMAIL ADDRESS</label>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="password" required>
+                <label>PASSWORD</label>    
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="password" required>
+                <label>CONFIRM PASSWORD</label>    
+            </div>
+            <div class="account-type">  
+                <form action="user">
+                    <div class="usertype">
+                        <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
+                            <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
+                        <datalist id="usertype-opts">
+                             <option value="Admin">
+                             <option value="Student">
+                        </datalist>
+                    </div>
+                </form>
+            </div>
+            <button type="submit" class="btn">SUBMIT</button>
+            <div class="login-link">
+                <p>Already have an account?<button class="btn2"><a href="login.html" class="design">&nbspSign In</a></button></p>
+            </div>
+           </form> 
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
