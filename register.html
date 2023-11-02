@@ -8,11 +8,13 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <header>
+    <!-- ISJAI logo at the top-left of the webpage -->
     <div class="logo">
         <a href="/images/logo.png"><img src="/images/logo.png" alt="logo"></a>
     </div>
 </header>
 <footer>
+    <!-- Footer of the webpage (includes the ISJAI quote, copyright statements, and social media) -->
     <div class="quote">
         <p><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH</b></p><hr>
         <h6>© IBAAN SAINT JAMES ACADEMY, 2023</h6>
@@ -24,45 +26,45 @@
     </div>
 </footer>
 <body>
+    <!-- Form box for login created (email, password and password confirmation -->
     <div class="wrapper">
         <div class="form-box">
-           <h2>REGISTER</h2>
+        <h2>REGISTER</h2>
            <form action="#">
-            <div class="input-box">
-                <i class='bx bxs-user-circle'></i>
-                <input type="text" required>
-                <label>EMAIL ADDRESS</label>
-            <div class="input-box">
-                <i class='bx bxs-lock-alt' ></i>
-                <input type="password" required>
-                <label>PASSWORD</label>    
+                <div class="input-box">
+                    <i class='bx bxs-user-circle'></i>
+                    <input type="email" required>
+                    <label>EMAIL ADDRESS</label>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" required>
+                    <label>PASSWORD</label>    
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" required>
+                    <label>CONFIRM PASSWORD</label>    
+                </div>
+    <!-- User declaration of the account type that will be registered -->
+                <div class="account-type">  
+                    <form action="user">
+                        <div class="usertype">
+                            <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
+                                <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
+                            <datalist id="usertype-opts">
+                                <option value="Admin">
+                                <option value="Student">
+                            </datalist>
+                        </div>
+                    </form>
+                </div>
+    <!-- Submition of account -->
+                    <button type="submit" class="btn">SUBMIT</button>
+    <!-- If the user already has an account, they are to be redirected to the login page -->
+                <div class="login-link">
+                    <p>Already have an account?<button class="btn2"><a href="login.html" class="design">&nbspSign In</a></button></p>
+                </div>
             </div>
-            <div class="input-box">
-                <i class='bx bxs-lock-alt' ></i>
-                <input type="password" required>
-                <label>CONFIRM PASSWORD</label>    
-            </div>
-            <div class="account-type">  
-                <form action="user">
-                    <div class="usertype">
-                        <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
-                            <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
-                        <datalist id="usertype-opts">
-                             <option value="Admin">
-                             <option value="Student">
-                        </datalist>
-                    </div>
-                </form>
-            </div>
-            <button type="submit" class="btn">SUBMIT</button>
-            <div class="login-link">
-                <p>Already have an account?<button class="btn2"><a href="login.html" class="design">&nbspSign In</a></button></p>
-            </div>
-           </form> 
         </div>
-    </div>
-    <footer>
-        
-    </footer>
-</body>
+    </body>
 </html>
