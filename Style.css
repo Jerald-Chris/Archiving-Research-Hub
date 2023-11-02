@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 250%;
+    background-color: rgb(197, 33, 33);
+    transition: all 0.5s ease;
+}
+.sidebar .active{
+    width: 60px;
+}
+.sidebar .logo{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.sidebar .logo{
+    font-size: 30px;
+    font-weight: 500px;
+    color: white;
+    min-width: 60px;
+    text-align: center;
+}
+.sidebar img{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 50px;   
+}
+.sidebar .logo .logo_name{
+    color: white;
+    font-size: 30px;
+    font-weight: 500px;
+}
+.sidebar .nav{
+    margin: 10px;
+}
+.sidebar .nav li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+}
+.sidebar .nav li a{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.sidebar .nav li a .active{
+    background: white;
+}
+.sidebar .nav li a:hover{
+    background-color: white;
+}
+.sidebar .nav li i{
+    min-width: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.sidebar .nav li a .link_name{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.sidebar .nav .log_out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.home_page{
+    position: relative;
+    background-color: white;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.5s ease;
+}
+.sidebar .active ~ .home_page{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.home_page nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 240px);
+    z-index: 100;
+    padding: 0 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+.home_page nav .sidebar-button{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+nav .sidebar-button i{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.home_page nav .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 20px;
+}
+nav .search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+}
+nav .search-box .bx-search{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #2697FF;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.4 ease;
+}
+.home_page nav .Profile{
+    display: flex;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 4px;
+    height: 50px;
+    min-width: 190px;
+    padding: 0 5px 0 2px;
+}
+nav .Profile .bx-user-circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+nav .Profile .admin_name{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.student-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.student-boxes{
+    width: 36%;
+    background: #f0e4e4;
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.student-boxes .Student-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.student-boxes .title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.student-boxes .Student-details li .topic{
+    font-size: 20px;
+    font-weight: 500;
+}
+.student-boxes .Student-details li{
+    list-style: none;
+    margin: 8px 0;
+}
+.student-boxes .Student-details li a{
+font-size: 18px;
+color: black;
+font-size: 400;
+text-decoration: none;
+}
+.student-boxes .button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.student-boxes .button a{
+    color: #fff;
+    background: #0A2558;
+    padding: 4px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.student-boxes .button a:hover{
+    background: red;
+}
