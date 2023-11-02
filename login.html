@@ -8,11 +8,13 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <header>
+    <!-- Logo of ISJAI at the top-left of the webpage -->
     <div class="logo">
         <a href="/images/logo.png"><img src="/images/logo.png" alt="logo"></a>
     </div>
 </header>
 <footer>
+    <!-- Footer of the webpage includes (quote of ISJAI, copyright statements, and social media) -->
     <div class="quote">
         <p><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH</b></p><hr>
         <h6>© IBAAN SAINT JAMES ACADEMY, 2023</h6>
@@ -24,36 +26,41 @@
     </div>
 </footer>
 <body>
+    <!-- Login form box includes (username and password) -->
     <div class="wrapper">
         <div class="form-box">
            <h2>LOGIN</h2>
-           <form action="#">
-            <div class="input-box">
-                <i class='bx bxs-user-circle'></i>
-                <input type="text">
-                <label>USERNAME</label>
-            <div class="input-box">
-                <i class='bx bxs-lock-alt' ></i>
-                <input type="password">
-                <label>PASSWORD</label>    
-            </div>
-            <div class="account-type">  
-                <form action="user">
-                    <div class="usertype">
-                        <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
-                            <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
-                        <datalist id="usertype-opts">
-                             <option value="ADMIN">
-                             <option value="STUDENT">
-                        </datalist>
+               <form action="#">
+                    <div class="input-box">
+                        <i class='bx bxs-user-circle'></i>
+                        <input type="text">
+                        <label>USERNAME</label>
                     </div>
-                </form>
-            </div>
-            <button type="submit" class="btn">SUBMIT</button>
+                    <div class="input-box">
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password">
+                        <label>PASSWORD</label>    
+                    </div>
+                    <div class="account-type">  
+    <!-- User declaration of account type (admin/student) -->
+                        <form action="user">
+                            <div class="usertype">
+                                <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
+                                <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
+                                    <datalist id="usertype-opts">
+                                         <option value="ADMIN">
+                                         <option value="STUDENT">
+                                    </datalist>
+                            </div>
+                        </form>
+                    </div>
+     <!-- Data submission -->
+                <button type="submit" class="btn">SUBMIT</button>
+    <!-- If the user does not have an account, they are to be redirected to register webpage -->
             <div class="login-register-link">
                 <p>REGISTER NOW!<br>BE A JAMESIAN</p>
             </div>
-            <button class="btn2"><a href="register.html" class="design">REGISTER</a></button>
+                <button class="btn2"><a href="register.html" class="design">REGISTER</a></button>
            </form> 
         </div>
     </div>
