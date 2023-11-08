@@ -4,67 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register | ISJAI Research Hub</title>
-    <link rel="stylesheet" href="register-styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="register-styles.css" rel='stylesheet'>
 </head>
-<header>
-    <!-- ISJAI logo at the top-left of the webpage -->
-    <div class="logo">
-        <a href="/images/logo.png"><img src="/images/logo.png" alt="logo"></a>
-    </div>
-</header>
-<footer>
-    <!-- Footer of the webpage (includes the ISJAI quote, copyright statements, and social media) -->
-    <div class="quote">
-        <p><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH</b></p><hr>
-        <h6>© IBAAN SAINT JAMES ACADEMY, 2023</h6>
-        <ul class="socials">
-            <li><a href="https://www.facebook.com/sjalibrary"><i class='bx bxl-facebook-circle'></i></a></li>
-            <li><a href="sjalibrary15@gmail.com"><i class='bx bxs-envelope' ></i></a></li>
-            <li><a href="#"><i class='bx bxs-phone' ></i></a></li>
-        </ul>
-    </div>
-</footer>
-<body>
-    <!-- Form box for login created (email, password and password confirmation -->
-    <div class="wrapper">
-        <div class="form-box">
-        <h2>REGISTER</h2>
-           <form action="#">
-                <div class="input-box">
-                    <i class='bx bxs-user-circle'></i>
-                    <input type="email" required>
-                    <label>EMAIL ADDRESS</label>
-                <div class="input-box">
-                    <i class='bx bxs-lock-alt' ></i>
-                    <input type="password" required>
-                    <label>PASSWORD</label>    
-                </div>
-                <div class="input-box">
-                    <i class='bx bxs-lock-alt' ></i>
-                    <input type="password" required>
-                    <label>CONFIRM PASSWORD</label>    
-                </div>
-    <!-- User declaration of the account type that will be registered -->
-                <div class="account-type">  
-                    <form action="user">
-                        <div class="usertype">
-                            <label for="usertype-choice">TYPE OF ACCOUNT:</label><br>         
-                                <input list="usertype-opts" id="usertype-choice" name="usertype-choice" placeholder=" ADMIN">
-                            <datalist id="usertype-opts">
-                                <option value="Admin">
-                                <option value="Student">
-                            </datalist>
-                        </div>
-                    </form>
-                </div>
-    <!-- Submition of account -->
-                    <button type="submit" class="btn">SUBMIT</button>
-    <!-- If the user already has an account, they are to be redirected to the login page -->
-                <div class="login-link">
-                    <p>Already have an account?<button class="btn2"><a href="login.html" class="design">&nbspSign In</a></button></p>
-                </div>
+<body> 
+    <header> <!--Header Part of the Homepage-->
+        <nav>
+            <div class="header-page">
+                <img src="/images/logo.png" alt="ISJAI">
+                <h3>ISJAI Research Hub</h3>
+                <p>SEÑIOR HIGH SCHOOL DEPARTMENT</p>
+            </div>
+            <!--Right Navigation Part of the Homepage-->
+            <div class="icon">
+                <ul class="right-icons">
+                    <li><a href="#"><i class='bx bx-cog'></i></a></li>
+                    <li><a href="#"><i class='bx bxs-user-circle' ></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="wrapper">
+            <div class="login-form">
+                <h1>REGISTER</h1>
+                <form action="#">
+                    <div class="input-box">
+                        <i class='bx bxs-user-circle'></i><input type="text" name="name" class="space" placeholder="Enter Name:" required>
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-envelope'></i><input type="email" name="email" class="space" placeholder="Enter Email Address:" required>
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-lock-alt'></i><input type="password" name="password" class="space" placeholder="Enter Password:" required>
+                    </div>
+                    <div class="input-box-type">
+                        <i class='bx bx-id-card'></i>
+                        <label>TYPE OF ACCOUNT:</label>
+                        <input list="usertype-opts" id="usertype-choice" name="usertype-choice" class="space" placeholder="Admin | Student" required>
+                        <datalist id="usertype-opts">
+                            <option value="Admin">
+                            <option value="Student">
+                       </datalist>
+                    </div>
+                    <div class="submit">
+                        <button name="register-submit" type="button">SUBMIT</button>
+                    </div>
+                    <div class="login-register">
+                        <p>Already have an account? |<a href="./login.html">&nbsp Login</a></p>
+                    </div>
+                </form>
             </div>
         </div>
-    </body>
+    </section>
+    <footer>
+        <!--Footer Part of the Homepage (ISJAI quote, Copyright Statements, and Contacts)-->
+        <div class="quote">
+            <h3><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH.</b></h3>
+            <p>© IBAAN SAINT JAMES ACADEMY. ALL RIGHTS RESERVED.</p>
+        <div class="social-media">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/sjalibrary"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="sjalibrary15@gmail.com"><i class='bx bxs-envelope' ></i></a></li>
+                <li><a href="#"><i class='bx bxs-phone'></i></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
