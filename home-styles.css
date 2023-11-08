@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@500&display=swap');
-@media screen and (min-width: 768px) {
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +11,6 @@
 body {
     height: 100vh;
     width: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 /*Navigation of the Header*/
@@ -32,7 +29,7 @@ header nav {
     height: 70px;
     background-color: rgb(250, 246, 246);
     position: absolute;
-    border-bottom: 3px solid #61111c;
+    border-bottom: 3px solid #0e0d0d;
 }
 
 /*ISJAI Logo size*/
@@ -96,6 +93,7 @@ section .strands {
     background-repeat: no-repeat;
 }
 
+
 /*Specialization tracks cards positioning and color*/
 
 .strand-cards {
@@ -120,16 +118,22 @@ section .strands {
     text-align: center;
     list-style: none;
     display: inline-block;
-    margin: 310px 0px 200px 230px;
+    margin: 300px 0px 200px 230px;
     padding-left: 20px;
     color: #fffcfd;
-    font-size: 30px;
+    font-size: 20px;
     transform: translate(-50%, -50%)
 }
 
-.strand-cards ul li h6 {
-    padding-top: 10px;
+.strand-cards ul li label {
+    padding-top: 20px;
     color: rgb(217, 207, 207)
+}
+
+.strand-cards ul li h6 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 /*Specialization tracks anchor positioning and color*/
@@ -149,40 +153,20 @@ section .strands {
     color: #060606;
 }
 
+
 /*Footer positioning and size*/
 
 footer {
     width: 100%;
     height: 100px;
-    position: relative;
     border-top: 3px solid #61111c;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 /*Footer text positioning and size*/
-
-.quote {
-    width: 100%;
-    height: 70px;
-    position: absolute;
-}
-
-.quote h3 {
-    padding-top: 10px;
-    font-size: 23px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-}
-
-.quote p {
-    margin-top: 3px;
-    font-size: 14px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-}
 
 /*Social media icons positioning, size, and color*/
 
@@ -208,183 +192,14 @@ footer {
 .social-media i {
     color: #d7263d;
 }
+
+.quote h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
-@media screen and (max-width: 767px){
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Inter', sans-serif;
-        text-decoration: none;
-    }
-    
-    body {
-        height: 100vh;
-        width: 100%;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    
-    header nav {
-        width: 100%;
-        height: 80px;
-        position: relative;
-        background-color: rgb(255, 254, 254);
-    }
-    
-    .header-page {
-        width: 100%;
-        height: 80px;
-        background-color: rgb(250, 246, 246);
-        position: absolute;
-        border-bottom: 3px solid #61111c;
-    }
-    
-    .header-page img {
-        width: 60px;
-        height: 60px;
-        display: flex;
-        position: absolute;
-    }
-    
-    .header-page h3 {
-        padding-top: 15px;
-        font-size: 18px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
-    }
-    
-    .header-page p {
-        font-size: 12px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
-        padding-top: 2px;
-    }
-    
-    nav .icon ul {
-        position: absolute;
-        font-size: 20px;
-        right: 10px;
-    }
-    
-    .icon ul li {
-        position: relative;
-        display: inline-block;
-        margin-top: 23px;
-        padding: 0;
-    }
-    
-    .icon ul li a {
-        color:  #060606;
-    }
-    
-    section .strands {
-        position: relative;
-        height: 70vh;
-        background-image: url(/images/book.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .strand-cards {
-        position: relative;
-        top: 80px;
-    }
-    
-    .strand-cards ul {
-        position: absolute;
-        width: 100%;
-        height: 400px;
-        background-color: #d7263d;
-        border-top: 5px solid #060606;
-        border-bottom: 5px solid #060606;
-    }
-    
-    .strand-cards ul li {
-        text-align: center;
-        list-style: none;
-        display: inline-block;
-        margin: 310px 0px 200px 230px;
-        padding-left: 20px;
-        color: #fffcfd;
-        font-size: 30px;
-        transform: translate(-50%, -50%)
-    }
-    
-    .strand-cards ul a {
-        margin-top: 20px;
-        margin-left: 120px;
-        position: absolute;
-        font-size: 240px;
-        color: white;
-        transition: 0.6s;
-    }
-    
-    .strand-cards a:hover {
-        color: #060606;
-    }
-    
-    .strand-cards ul li h6 {
-        padding-top: 10px;
-        color: rgb(217, 207, 207)
-    }
-    
-    footer {
-        width: 100%;
-        height: 70px;
-        position: relative;
-        border-top: 3px solid #61111c;
-    }
-    
-    .quote {
-        width: 100%;
-        height: 70px;
-        position: absolute;
-    }
-    
-    .quote h3 {
-        padding-top: 35px;
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
-    }
-    
-    .quote p {
-        margin-top: 3px;
-        font-size: 10px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        position: relative;
-    }
-    
-    .social-media {
-        width: 100%;
-        height: 30px;
-        position: absolute;
-    }
-    
-    .social-media ul {
-        position: relative;
-        text-align: center;
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    
-    .social-media ul li {
-        position: relative;
-        display: inline-block;
-        padding: 2px;
-    }
-    
-    .social-media i {
-        color: #130507; 
-}
+.quote p {
+    font-size: 12px;
+    margin-top: 3px;
 }
