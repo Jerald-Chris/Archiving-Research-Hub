@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register | ISJAI Research Hub</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="register-styles.css" rel='stylesheet'>
+    <link href="../css/register-styles.css" rel='stylesheet'>
 </head>
 <body> 
     <header> <!--Header Part of the Homepage-->
         <nav>
             <div class="header-page">
-                <img src="/images/logo.png" alt="ISJAI">
+                <img src="../images/logo.png" alt="ISJAI">
                 <h3>ISJAI Research Hub</h3>
                 <p>SEÑIOR HIGH SCHOOL DEPARTMENT</p>
             </div>
             <!--Right Navigation Part of the Homepage-->
             <div class="icon">
                 <ul class="right-icons">
-                    <li><a href="#"><i class='bx bx-cog'></i></a></li>
                     <li><a href="#"><i class='bx bxs-user-circle' ></i></a></li>
                 </ul>
             </div>
@@ -30,17 +29,17 @@
                 <h1>REGISTER</h1>
                 <form action="#">
                     <div class="input-box">
-                        <i class='bx bxs-user-circle'></i><input type="text" name="name" class="space" placeholder="Enter Name:" required>
+                        <i class='bx bxs-user-circle'></i><input type="text" name="name" class="space" placeholder="Enter Name:" required autocomplete=" ">
                     </div>
                     <div class="input-box">
-                        <i class='bx bxs-envelope'></i><input type="email" name="email" class="space" placeholder="Enter Email Address:" required>
+                        <i class='bx bxs-envelope'></i><input type="email" name="email" class="space" placeholder="Enter Email Address:" required autocomplete="@gmail.com">
                     </div>
                     <div class="input-box">
                         <i class='bx bxs-lock-alt'></i><input type="password" name="password" class="space" placeholder="Enter Password:" required>
                     </div>
                     <div class="input-box-type">
                         <i class='bx bx-id-card'></i>
-                        <label>TYPE OF ACCOUNT:</label>
+                        <h3>TYPE OF ACCOUNT:</h3>
                         <input list="usertype-opts" id="usertype-choice" name="usertype-choice" class="space" placeholder="Admin | Student" required>
                         <datalist id="usertype-opts">
                             <option value="Admin">
