@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+/*Navigation of the Header*/
+
+header nav {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: rgb(255, 254, 254);
+}
+
+/*Size and dimensions of the header*/
+
+.header-page {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(250, 246, 246);
+    position: absolute;
+    border-bottom: 3px solid #0e0d0d;
+}
+
+/*ISJAI Logo size*/
+
+.header-page img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+}
+
+/*Title heading size and text alignment*/
+
+.header-page h3 {
+    padding-top: 10px;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+/*Title paragraph size and text alignment*/
+
+.header-page p {
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding-top: 2px;
+}
+
+/*Navigation Icons Positioning, Color, and Sizes*/
+.action {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+}
+.action .Profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.action .Profile img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.action .menu{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    padding: 10px 40px;
+    background: white;
+    border: black solid;
+    border-radius: 15px;
+    transition: 0.5%;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.2em;
+}
+.action .menu ul li {
+    list-style: none;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+    display: flex;
+    padding: 0px;
+
+}
+.action .menu ul li a {
+    max-width: 20px;
+    margin-right: 20px;
+}
+.action .menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.action .menu ul li:hover a {
+    color: red;
+
+}
+
+/*Sectioning (images, and positioning)*/
+
+
+
+
+/*Specialization tracks cards positioning and color*/
+
+
+/*Specialization tracks icons positioning and color*/
+
+
+
+/*Specialization tracks text positioning and color*/
+
+
+/*Specialization tracks anchor positioning and color*/
+
+.strand-cards ul a {
+    margin-top: 20px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 240px;
+    color: white;
+    transition: 0.6s;
+}
+
+/*Specialization tracks hover positioning and color*/
+
+.strand-cards a:hover {
+    color: #060606;
+}
+
+
+/*Footer positioning and size*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    border-top: 3px solid #61111c;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/*Footer text positioning and size*/
+
+/*Social media icons positioning, size, and color*/
+
+.social-media {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+}
+
+.social-media ul {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.social-media ul li {
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+}
+
+.social-media i {
+    color: #d7263d;
+}
+
+.quote h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.quote p {
+    font-size: 12px;
+    margin-top: 3px;
+}

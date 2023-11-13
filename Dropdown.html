@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISJAI Research Hub</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel='stylesheet'>
+</head>
+<body> 
+    <header> <!--Header Part of the Homepage-->
+        <nav>
+            <div class="header-page">
+                <img src="/images/logo.png" alt="ISJAI">
+                <h3>ISJAI Research Hub</h3>
+                <p>SEÑIOR HIGH SCHOOL DEPARTMENT</p>
+            </div>
+            <!--Right Navigation Part of the Homepage-->
+            <div>
+            <div class="action">
+                <div class="Profile" onclick="menuToggle()">
+                    <img src="Batangas_State_Logo.png" alt="">
+                    </div>
+            <div class="menu">
+                <h3>USER<br><span></span></h3>
+                <ul>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+        <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active')
+            }
+        </script>
+        </nav>
+    </header>
+    <section>
+        <div class="strands">
+            <!--Middle Section of the Homepage (Specialization Tracks- STEM,ABM, and HUMSS)-->
+            <div class="strand-cards">
+                <ul>
+                    <a href="/stem-page.html"><i class='bx bx-hard-hat'></i></a>
+                        <li><h6>STEM</h6><label class="stem">Science, Technology,<br>Engineering and Mathematics</label></li>
+                    <a href="./abm-page.html"><i class='bx bx-credit-card-alt'></i></a>
+                        <li><h6>ABM</h6><label class="abm">Accountancy and Business<br>and Management</label></li>
+                    <a href="./humss-page.html"><i class='bx bx-book-reader'></i></a>
+                        <li><h6>HUMSS</h6><label class="humss">Humanities and<br>Social Sciences</label></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!--Footer Part of the Homepage (ISJAI quote, Copyright Statements, and Contacts)-->
+        <div class="quote">
+            <h3><b>SERVE THE INTEREST OF JESUS, LIKE ST. JOSEPH.</b></h3>
+            <p>© IBAAN SAINT JAMES ACADEMY. ALL RIGHTS RESERVED.</p>
+        <div class="social-media">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/sjalibrary"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="sjalibrary15@gmail.com"><i class='bx bxs-envelope' ></i></a></li>
+                <li><a href="#"><i class='bx bxs-phone'></i></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
