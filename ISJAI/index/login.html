@@ -22,17 +22,19 @@
         <div class="wrapper">
             <div class="login-form">
                 <h1>LOGIN</h1>
-                <form action="#">
+                <form action="../php/connect.php" method="post">
                     <div class="input-box">
-                        <i class='bx bxs-envelope'></i><input type="email" name="email" class="space" placeholder="Enter Email Address:" required autocomplete="@gmail.com">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="email" class="space" id="email" placeholder="Enter Email Address:" required autocomplete="@gmail.com">
                     </div>
                     <div class="input-box">
-                        <i class='bx bxs-lock-alt'></i><input type="password" name="password" class="space" placeholder="Enter Password:" required>
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" name="password" class="space" id="password" placeholder="Enter Password:" required>
                     </div>
                     <div class="input-box-type">
                         <i class='bx bx-id-card'></i>
                         <h3>TYPE OF ACCOUNT</h3>
-                        <input list="usertype-opts" id="usertype-choice" name="usertype-choice" class="space" placeholder="Admin | Student" required>
+                        <input list="usertype-opts" id="usertype-choice" name="usertype-choice" class="space" id="usertype" placeholder="Admin | Student" required>
                         <datalist id="usertype-opts">
                             <option value="Admin">
                             <option value="Student">

@@ -22,27 +22,30 @@
         <div class="wrapper">
             <div class="login-form">
                 <h1>REGISTER</h1>
-                <form action="#">
+                <form action="#" method="post">
                     <div class="input-box">
-                        <i class='bx bxs-user-circle'></i><input type="text" name="name" class="space" placeholder="Enter Name:" required autocomplete=" ">
+                        <i class='bx bxs-user-circle'></i>
+                        <input type="text" name="name" id="name" class="space" placeholder="Enter Name:" required autocomplete=" ">
                     </div>
                     <div class="input-box">
-                        <i class='bx bxs-envelope'></i><input type="email" name="email" class="space" placeholder="Enter Email Address:" required autocomplete="@gmail.com">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="email" id="email" class="space" placeholder="Enter Email Address:" required autocomplete="@gmail.com">
                     </div>
                     <div class="input-box">
-                        <i class='bx bxs-lock-alt'></i><input type="password" name="password" class="space" placeholder="Enter Password:" required>
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" name="password" id="password" class="space" placeholder="Enter Password:" required>
                     </div>
                     <div class="input-box-type">
                         <i class='bx bx-id-card'></i>
                         <h3>TYPE OF ACCOUNT:</h3>
-                        <input list="usertype-opts" id="usertype-choice" name="usertype-choice" class="space" placeholder="Admin | Student" required>
-                        <datalist id="usertype-opts">
+                        <input list="usertype_opts" id="usertype_choice" name="usertype_choice" class="space" placeholder="Admin | Student" required>
+                        <datalist id="usertype_opts">
                             <option value="Admin">
                             <option value="Student">
                        </datalist>
                     </div>
                     <div class="submit">
-                        <button name="register-submit" type="button">SUBMIT</button>
+                        <button name="register-submit" type="submit">SUBMIT</button>
                     </div>
                     <div class="login-register">
                         <p>Already have an account? |<a href="./login.html">&nbsp Login</a></p>
