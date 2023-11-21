@@ -65,7 +65,7 @@ add_HUMMS();
                     </div>
                     <!-- Return to Dashboard -->
                     <div class="return_dash">
-                        <p>Return to Dashboard? |<a href="./dashboard.php">&nbsp Return</a></p>
+                        <p>Return to Dashboard? |<a href="./dashboard-documents.php">&nbsp Return</a></p>
                     </div>
                 </form>
             </div>
