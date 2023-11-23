@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@500&display=swap');
+      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+/*Navigation of the Header (Title, Logo)*/
+
+nav {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    border-bottom: 6px solid #060606;
+}
+
+nav .user {
+    height: 40px;
+    width: 40px;
+}
+
+nav .header-title h1 {
+    font-size: 25px;
+}
+
+nav .header-title p {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 12px;
+    bottom: 20px;
+}
+
+.nav .logo img {
+    height: 70px;
+    width: 70px;
+}
+
+/*Navigation of the Header (Search box)*/
+
+.nav .search-box {
+    position: absolute;
+    right: 140px;
+    height: 100px;
+    max-width: 350px;
+    padding-top: 20px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s linear;
+}
+
+.nav.openSearch .search-box {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.nav i {
+    position: absolute;
+    right: 8.5%;
+    font-size: 35px;
+}
+
+.nav i:hover, a:hover, .user:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.search-box form{
+    height: 60px;
+    margin: 20px;
+}
+
+.search-box input {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 0 20px 0 45px;
+}
+
+.nav .navOpenBtn, .nav .navCloseBtn {
+    display: none;
+}
+
+/*Drop-down menu*/
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    z-index: 100;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/*User information in the drop-down menu*/
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3 {
+    font-weight: 500;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: rgb(110, 108, 108);
+    margin: 15px 0 10px;
+}
+
+/*Log-out text and icons position and sizes*/
+
+.log-out {
+    display: flex;
+    align-items: center;
+    color: #060606;
+    margin: 12px 0;
+}
+
+.log-out p {
+    width: 100%;
+    padding-right: 50%;
+}
+
+.log-out p:hover {
+    font-weight: 600;
+    color: #1C5739;
+}
+
+/*Navigation Icons Positioning, Color, and Sizes*/
+
+.title-page {
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.title-page p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/*Back button of the webpage positioning and sizes*/
+
+.previous {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.previous:hover {
+    transform: scale(1.1);
+}
+
+/*File Swiper in the section of the webpage size*/
+
+.swiper { 
+    width: 400px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #060606;
+    top: 440px;
+}
+
+/*Section positioning and sizes*/
+
+section {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin-top: -50px;
+}
+
+/*Cards content (text and image) positioning and sizes*/
+
+section .card .image {
+    height: 220px;
+    width: 180px;
+    border-radius: 20%;
+    padding: 3px;
+    background: #d7263d;
+}
+
+section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.card {
+    position: relative;
+    background: #d7263d;
+    border-radius: 30px;
+    margin: 20px 0px;
+    width: 100px;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card::before {
+    content: " ";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .research-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.card .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0 10px;
+    color: white;
+    font-size: 12px;
+}
+
+/*Cards button positioning and sizes*/
+
+.card .button {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .button button {
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .button button:hover {
+    background: #1C5739;
+    color: rgb(255, 255, 255);
+    transform: scale(1.01);
+}
