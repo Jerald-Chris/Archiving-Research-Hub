@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+/*Header Positioning and Sizes*/
+
+header {
+    display: flex;
+    position: relative;
+    padding: 0 0 20px 30px;
+    height: 18%;
+    left: 250px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/*Section Positioning and Sizes*/
+
+section {
+    display: table;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 85%;;
+    max-width: 100%;
+    width: 100%;
+    left: 250px;
+    background-color: #ffffff;
+    border-top: 5px solid #1C5739;
+}
+
+/*Sidebar of the Dashboard (Images, Icons, and Text) Positioning and Sizes*/
+
+aside {
+    display: flex;
+    position: fixed;
+    max-width: 250px;
+    height: 100%;
+    background-color: #d7263d;
+}
+
+.home-sidebar {
+    width: 250px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.home-sidebar img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.home-sidebar span {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.home-sidebar:hover {
+    background-color: #1C5739;
+}
+
+.logo-name {
+    font-size: 30px;
+    height: 100px;
+    max-width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar {
+    height: 100%;
+    max-width: 250px;
+    margin: 25px 0 0;
+}
+
+.sidebar li {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    height: 60px;
+}
+
+.sidebar .sidebar-items li a{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    transition: all 0.4s ease;
+}
+
+.sidebar .sidebar-items li i{
+    min-width: 60px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-items span {
+    color: white;
+}
+
+.sidebar-items .record-li, .docs-li, .add-li, .log-out-li, .user-li {
+    font-size: 15px;
+}
+
+.sidebar-items .user {
+    position: absolute;
+    height: 50px;
+    bottom: 80px; 
+}
+
+.sidebar-items .log-out {
+    position: absolute;
+    height: 50px;
+    bottom: 30px;
+}
+
+.sidebar .sidebar-items li a:hover{
+    background-color: #1C5739;
+}
+
+/*Header Section on the Dashboard (Icons, Images)*/
+
+.home-icon i {
+    display: flex;
+    position: absolute;
+    width: 5%;
+    top: 40%;
+    font-size: 30px;
+}
+
+.home-icon h1 {
+    position: relative;
+    top: 45%;
+    left: 20%;
+}
+
+/*Search box of the dashboard*/
+
+.search-box {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    left: 20%;
+    font-size: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-box i {
+    position: relative;
+    top: 33%;
+    left: 20%;
+    color: black;
+}
+
+/*Table data positioning and sizes*/
+
+section h1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 50px;
+    top: 40px;
+}
+
+section .content-table {
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    margin: 70px 0;
+    font-size: 0.9em;
+    margin-left: 50px;
+    width: 75%;
+}
+
+section .content-table thead tr {
+    background-color: #1C5739;
+    color: white;
+    text-align: center;
+    min-width: 300px;
+    height: 50px;
+    padding: 30px;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+section .content-table thead th {
+    min-width: 300px;
+    padding: 12px 15px;
+}
+
+section .content-table tbody tr {
+    min-width: 300px;
+    font-size: 16px;
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: inset 0 0 6px #1C5739;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: inset 0 0 6px #1C5739;
+}
