@@ -388,7 +388,7 @@ function search_humms_hp(){
   global $con;
   if(isset($_GET['search'])){
     $filtervalues = $_GET['search'];
-    $select_query = "Select *from `research_humms` where CONCAT(Research_Title, Author) LIKE '%$filtervalues%'";
+    $select_query = "Select *from `research_humss` where CONCAT(Research_Title, Author) LIKE '%$filtervalues%'";
     $result = mysqli_query($con, $select_query);
 
     if(mysqli_num_rows($result) > 0){

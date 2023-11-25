@@ -57,7 +57,7 @@ include('../php functions/common_functions.php');
     </header>
     <section>
         <!-- STEM Table -->
-        <h1 class="stem-data">STEM</h1>
+        <h1 class="stem-data">Science, Technology, Engineering, and Mathematics (STEM)</h1>
         <table class="content-table">
             <thead>
                 <tr>
@@ -76,7 +76,7 @@ include('../php functions/common_functions.php');
             </tbody>
         </table>
         <!-- ABM Table -->
-        <h1 class="stem-data">ABM</h1>
+        <h1 class="stem-data">Accountancy, Business, and Management (ABM)</h1>
         <table class="content-table">
             <thead>
                 <tr>
@@ -95,7 +95,7 @@ include('../php functions/common_functions.php');
             </tbody>
         </table>
         <!-- HUMSS Table -->
-        <h1 class="stem-data">HUMSS</h1>
+        <h1 class="stem-data">Humanities and Social Sciences (HUMSS)</h1>
         <table class="content-table">
             <thead>
                 <tr>

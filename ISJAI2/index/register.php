@@ -51,7 +51,7 @@ register();
                     <!-- Account Type Input of the Form -->
                     <div class="input-box-type">
                         <i class='bx bx-id-card'></i>
-                        <h3>TYPE OF ACCOUNT:</h3>
+                        <h3>GRADE LEVEL:</h3>
                         <input list="usertype-opts" id="grade-level" name="grade-level" class="space" placeholder="Grade 11 | Grade 12" required>
                         <datalist id="usertype-opts">
                             <option value="Grade 11">

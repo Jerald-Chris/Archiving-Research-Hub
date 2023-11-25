@@ -14,7 +14,7 @@ include("../php functions/common_functions.php");
 <body>
     <div class="box">
             <div class="contentbox">
-            <button class="back"><a href="../index/stem-page.php">&lt; &nbsp Previous</a></button>
+            <button class="back"><a href="../index/humss-page.php">&lt; &nbsp Previous</a></button>
             <?php
                     if(isset($_POST["ID"])) {
                     $id = $_POST["ID"];
