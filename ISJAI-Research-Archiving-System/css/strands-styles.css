@@ -54,10 +54,9 @@ nav .header-title p {
 
 .nav .search-box {
     position: absolute;
-    right: 140px;
-    height: 100px;
+    right: 100px;
+    height: 40px;
     max-width: 350px;
-    padding-top: 20px;
     width: 100%;
     opacity: 0;
     pointer-events: none;
@@ -68,12 +67,12 @@ nav .header-title p {
 .nav.openSearch .search-box {
     opacity: 1;
     pointer-events: auto;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .nav i {
     position: absolute;
-    right: 8.5%;
+    right: 9%;
     font-size: 35px;
 }   
 
@@ -83,19 +82,20 @@ nav .header-title p {
 }
 
 .search-box form{
-    height: 100px;
-    margin: 20px;
+    height: 30px;
 }
 
 .search-box input {
     border: 1px solid black;
     outline: none;
+    font-size: 14px;
     border-radius: 6px;
     background-color: #fff;
-    padding: 0 20px 0 45px;
+    padding: 0 20px 0 20px;
 }
 
 .nav .navOpenBtn, .nav .navCloseBtn {
+    cursor: pointer;
     display: none;
 }
 

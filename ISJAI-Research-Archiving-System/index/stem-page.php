@@ -26,14 +26,17 @@ include('../php functions/common_functions.php');
         <a href="../index/homepage.php" class="logo"><img src="../images/logo.png" alt="ISJAI Logo"></a>
         <ul class="nav-link">
           <i class="uil uil-times navCloseBtn"></i>
-          <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>Senior High School Department</p></span>
+          <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>SEÑIOR HIGH SCHOOL DEPARTMENT</p></span>
         </ul>
         <i class="uil uil-search search-icon" id="searchIcon"></i>
         <!-- Search box -->
         <div class="search-box">
-            <form action="" method="get">
-                <input name="search" type="text" id="search" placeholder="Search here..." />
-            </form>
+            <label for="search-user">
+            <form action="#" method="get">
+                    <input name="search" type="text" id="search" class="search-box" placeholder="Search..." autocomplete=off>
+                    <a href="#"><i class='bx bx-search'></i></a>
+                </form>
+            </label>
         </div>
         <!-- Drop down menu (username, logout) -->
         </form>

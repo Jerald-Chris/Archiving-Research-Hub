@@ -25,7 +25,7 @@ if(!isset($_SESSION['user_name'])) {
     <header> <!--Header Part of the Homepage-->
         <nav>
             <a href="../index/homepage.php" class="home"><img src="../images/logo.png" class="logo" alt="ISJAI Logo"></a>
-            <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>Senior High School Department</p></span>
+            <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>SEÑIOR HIGH SCHOOL DEPARTMENT</p></span>
             <img src="../images/user.png" alt="User" class="user" onclick="toggleMenu()">
 
             <!-- Drop-down menu of the header -->

@@ -43,15 +43,15 @@ $result = mysqli_query($con, $select_query);
             </div>
             <div class="search-box">
             <label for="search-user">
-            <form method="get">
-                    <input name="search" type="text" class="search-box" placeholder="Search..." autocomplete=off>
+            <form action="#" method="get">
+                    <input name="search" type="text" id="search" class="search-box" placeholder="Search..." autocomplete=off>
                     <a href="#"><i class='bx bx-search'></i></a>
                 </form>
             </label>
             </div>
         </nav>
     <div class="students-details">
-        <h1 class="students">STUDENT REGISTERED</h1>
+        <h1 class="students">Students Registered</h1>
             <table class="content-table">
                 <thead>
                     <tr>

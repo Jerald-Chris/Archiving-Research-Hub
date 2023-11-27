@@ -3,20 +3,21 @@
 session_start();
 include('../php connect/connect.php');
 include('../php functions/common_functions.php');
-
 ?>
+
+<!-- HTML Start -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUMSS | ISJAI Research Hub</title>
-    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>HUMSS| ISJAI Research Hub</title>
     <!-- CSS Links -->
-    <link rel="stylesheet" href="../css/strands-styles.css?<?php echo time(); ?>">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/strands-styles.css?<?php echo time(); ?>">
 </head>
 <body>
     <!-- Navigation part of the Homepage -->
@@ -25,16 +26,20 @@ include('../php functions/common_functions.php');
         <a href="../index/homepage.php" class="logo"><img src="../images/logo.png" alt="ISJAI Logo"></a>
         <ul class="nav-link">
           <i class="uil uil-times navCloseBtn"></i>
-          <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>Senior High School Department</p></span>
+          <span class="header-title"><h1>ISJAI Research Hub</h1><br><p>SEÑIOR HIGH SCHOOL DEPARTMENT</p></span>
         </ul>
-        <!-- Search box -->
         <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <!-- Search box -->
         <div class="search-box">
-            <form action="" method="get">
-                <input name="search" type="text" id="search" placeholder="Search here..." />
-            </form>
+            <label for="search-user">
+            <form action="#" method="get">
+                    <input name="search" type="text" id="search" class="search-box" placeholder="Search..." autocomplete=off>
+                    <a href="#"><i class='bx bx-search'></i></a>
+                </form>
+            </label>
         </div>
         <!-- Drop down menu (username, logout) -->
+        </form>
         <img src="../images/user.png" alt="User" class="user" onclick="toggleMenu()">
             <div class="sub-menu-wrap" id="subMenu">
                 <div class="sub-menu">
@@ -47,7 +52,7 @@ include('../php functions/common_functions.php');
                 </div>
             </div>
       </nav>
-      <!-- Main section of the Homepage -->
+    <!-- Main section of the Homepage -->
     <section class="title-page">
     <div class="title-page">
         <h1>HUMSS</h1>
@@ -59,11 +64,11 @@ include('../php functions/common_functions.php');
         <div class=" swiper mySwiper container">
             <div class="swiper-wrapper content">
                 <!-- PHP Connection to Swiper.js -->
-                <?php
+                <?php  
                     search_humms_hp();
                     display_humms_home();
                 ?>
-            </div> 
+            </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
