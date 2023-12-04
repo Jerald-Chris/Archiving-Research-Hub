@@ -13,6 +13,7 @@ function register(){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $hash_password = password_hash($password, PASSWORD_DEFAULT);
     $glevel = $_POST['grade-level'];
 
       if (!isStrongPassword($password)) {
@@ -28,7 +29,7 @@ function register(){
       else{
           //insert data to database
           $insert_query = "insert into `user_registration` (Name, Email, Password, Grade_Level)
-          values ('$name', '$email', '$password', '$glevel')";
+          value ('$name', '$email', '$hash_password', '$glevel')";
           $sql_execute = mysqli_query($con, $insert_query);
           echo"<script> alert('Successfully Registered')</script>";
           echo "<script> window.open('register.php', '_self')</script>";
@@ -46,12 +47,14 @@ function login(){
     $password = $_POST['password'];
 
     //condition if email exist and correct
-    $select = "SELECT *FROM `user_registration` WHERE Email = '$email' AND Password = '$password'";
+    $select = "SELECT * FROM `user_registration` WHERE `Email` = '$email'";
     $result = mysqli_query($con, $select);
     $rows_count = mysqli_num_rows($result);
+    $row = mysqli_fetch_assoc($result);
     if($rows_count>0) {
-        $row = mysqli_fetch_array($result);
         
+      if(password_verify($password, $row['Password'])){
+    
         if($row["Grade_Level"] == 'Grade 11') {
           $_SESSION['user_name'] = $row['Name'];
           header('Location: homepage.php');
@@ -61,13 +64,12 @@ function login(){
       header('Location: homepage.php');
     
     }
-}else{
-      echo "<script> alert('Incorrect Email or Password')</script>";
-//if email and password is wrong
 }
-} 
+} else{
+  echo "<script> alert('Incorrect Email or Password')</script>";
+}
 }    
-
+}
 
 
 //add documents
