@@ -63,14 +63,15 @@ function login(){
       $_SESSION['user_name'] = $row['Name'];
       header('Location: homepage.php');
     
-    }
+    }else{
+      echo "<script> alert('Incorrect Email or Password')</script>";
 }
 } else{
   echo "<script> alert('Incorrect Email or Password')</script>";
 }
 }    
 }
-
+}
 
 //add documents
 function add_STEM(){
