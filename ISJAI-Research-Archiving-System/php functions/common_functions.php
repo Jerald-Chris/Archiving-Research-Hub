@@ -6,6 +6,7 @@ function isStrongPassword($password) {
   return preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}$/", $password);
 
 }
+//register function
 function register(){
   global $con;
   
@@ -37,7 +38,7 @@ function register(){
 }
 }
 }
-
+// end of register function
 
 //login function
 function login(){
@@ -58,20 +59,19 @@ function login(){
         if($row["Grade_Level"] == 'Grade 11') {
           $_SESSION['user_name'] = $row['Name'];
           header('Location: homepage.php');
-
-    }elseif($row["Grade_Level"] == 'Grade 12') {
-      $_SESSION['user_name'] = $row['Name'];
-      header('Location: homepage.php');
-    
-    }else{
-      echo "<script> alert('Incorrect Email or Password')</script>";
+        }elseif($row["Grade_Level"] == 'Grade 12') {
+          $_SESSION['user_name'] = $row['Name'];
+          header('Location: homepage.php');
+        }
+      }   else{
+        echo "<script> alert('Incorrect Password')</script>";
+        }     
+      }   else{
+        echo "<script> alert('Email does not exist')</script>";
+        }   
+  }
 }
-} else{
-  echo "<script> alert('Incorrect Email or Password')</script>";
-}
-}    
-}
-}
+//end of login function
 
 //add documents
 function add_STEM(){
@@ -152,6 +152,8 @@ function add_HUMMS(){
     }
 }
 }
+//end of add documents
+
 
 //search function
 function search_stem(){
@@ -205,7 +207,6 @@ function search_humms(){
 function search_abm(){
   global $con;
   if(isset($_GET['search'])){
-    //condition para ma search by research title at author
     $filtervalues = $_GET['search'];
     $select_query = "Select *from `research_abm` where CONCAT(Research_Title, Author, Strand) LIKE '%$filtervalues%'";
     $query_run = mysqli_query($con, $select_query);
@@ -225,25 +226,9 @@ function search_abm(){
     }
   }
 }
+//end of search function
 
-function display_dash_doc(){
-  global $con;
-  $select_query = "Select *from `research_documents`";
-  $result = mysqli_query($con, $select_query);
-    while ($row = mysqli_fetch_assoc($result)) {
-      ?>
-            <tr>
-                <td><?php echo $row['Research_Title']; ?></td>
-                <td><?php echo $row['Author']; ?></td>
-                <td><?php echo $row['Date_Added']; ?></td>
-                
-            </tr>
-          <?php
-    }
-
-}
-
-//display documents in stud dashboard
+//display documents in student dashboard
 function display_stem_home(){
   global $con;
   $select_query = "Select *from `research_stem`";
@@ -321,8 +306,9 @@ function display_humms_home(){
         <?php
             }
 }
+//end of display documents in student dashboard
 
-//search in hp
+//search in homepage SRANDS
 function search_stem_hp(){
   global $con;
   if(isset($_GET['search'])){
@@ -418,32 +404,10 @@ function search_humms_hp(){
 }
 }
 }
+//end of search in homepage STRANDS
 
 
-function delete(){
-  global $con;
-
-  $select_query = "Select *from `research_stem`";
-  $result = mysqli_query($con, $select_query);
-  $row = mysqli_fetch_assoc($result);
-  
-  if(isset($_GET['delete'])){
-    $id = $row['ID'];
-
-    $delete_query = "Delete *from `research_stem` where ID = '$id'";
-    $delete_run = mysqli_query($con, $delete_query);
-
-    if($delete_run){
-      echo "<script> alert('Data Deleted'); </script>";
-      header("location: ../index/dashboard-documents.php");
-    }else{
-      echo "<script> alert('Data Not Deleted'); </script>";
-    }
-}
-}
-
-
-
+//search for students
 function search_student(){
   global $con;
   if(isset($_GET['search'])){
@@ -470,6 +434,7 @@ function search_student(){
     }
   }
 }
+//end of search for students
 ?>
 
 
