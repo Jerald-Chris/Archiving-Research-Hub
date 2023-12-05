@@ -68,7 +68,7 @@ add_STEM();
                     </div>
                     <!-- Return to Dashboard -->
                     <div class="return_dash">
-                        <p>Return to Dashboard? |<a href="./dashboard-documents.php">&nbspReturn</a> |
+                        <p>Return to Dashboard? |<a href="./dashboard-documents-strands.php">&nbspReturn</a> |
                         <a href="./add_abm.php">ABM</a> |
                         <a href="./add_humms.php">HUMSS</a></p>
                     </div>

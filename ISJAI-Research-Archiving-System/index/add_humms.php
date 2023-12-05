@@ -69,7 +69,7 @@ add_HUMMS();
                     </div>
                     <!-- Return to Dashboard -->
                     <div class="return_dash">
-                        <p>Return to Dashboard? |<a href="./dashboard-documents.php">&nbspReturn</a> |
+                        <p>Return to Dashboard? |<a href="./dashboard-documents-strands.php">&nbspReturn</a> |
                         <a href="./add_abm.php">STEM</a> |
                         <a href="./add_humms.php">ABM</a></p>
                     </div>

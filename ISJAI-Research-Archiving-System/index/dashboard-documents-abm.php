@@ -23,12 +23,12 @@ include('../php functions/common_functions.php');
             <span class="logo_name">ISJAI</span>
         </div>
         <ul class="nav_links">
-            <li><a href="./dashboard.php" class="records"><i class='bx bxs-data'></i><span class="link_name">Student Records</span></a></li>
-            <li><a href="./dashboard-documents-strands.php" class="docs"><i class='bx bxs-file'></i><span class="link_name">Research Documents</span></a></li>
+            <li><a href="dashboard.php" class="records"><i class='bx bxs-data'></i><span class="link_name">Student Records</span></a></li>
+            <li><a href="dashboard-documents-strands.php" class="docs"><i class='bx bxs-file'></i><span class="link_name">Research Documents</span></a></li>
             <li><a href="add_stem.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add STEM Document</span></a></li>
             <li><a href="add_abm.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add ABM Document</span></a></li>
             <li><a href="add_humms.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add HUMSS Document</span></a></li>
-            <li><a href="./dashboard-user.php" class="user"><i class='bx bxs-user-circle'></i><span class="link_name">Admin</span></a></li>
+            <li><a href="dashboard-user.php" class="user"><i class='bx bxs-user-circle'></i><span class="link_name">Admin</span></a></li>
             <li><a href="logout.php" class="log-out" onclick="return confirm('Are you sure you want to Log Out?')"><i class='bx bx-log-out'></i><span class="link_name">Logout</span></a></li>
         </ul>
     </div>
@@ -40,6 +40,15 @@ include('../php functions/common_functions.php');
                 <span class="dashboard-admin">RESEARCH DOCUMENTS</span>
             </div>
             <div class="search-box">
+            <?php
+            if(isset($_GET['search'])){
+                $filtervalues = $_GET['search'];
+                $select_query = "Select *from `research_abm` where CONCAT(Research_Title, Author) LIKE '%$filtervalues%'";
+            }else{
+                $select_query = "Select *from `research_abm`";
+            }
+                $query_run = mysqli_query($con, $select_query);
+            ?>
             <form method="get">
             <label for="search-user">
                     <input name="search" type="text" class="search-box" placeholder="Search..." autocomplete=off>
@@ -61,12 +70,17 @@ include('../php functions/common_functions.php');
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <!-- PHP Function in searching ABM data -->
-                <?php
-                    search_abm();
-                ?>
-            </tr>
+            <?php
+                while($row = mysqli_fetch_array($query_run)){
+            ?>
+                <tr>
+                    <td><?php echo $row['Research_Title']; ?></td>
+                    <td><?php echo $row['Author']; ?></td>
+                    <td><?php echo $row['Date_Added']; ?></td>
+                </tr>
+            <?php
+                }
+            ?>
             </tbody>
         </table>
     </div>

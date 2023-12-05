@@ -155,79 +155,6 @@ function add_HUMMS(){
 //end of add documents
 
 
-//search function
-function search_stem(){
-  global $con;
-  if(isset($_GET['search'])){
-    //condition para ma search by research title at author
-    $filtervalues = $_GET['search'];
-    $select_query = "Select *from `research_stem` where CONCAT(Research_Title, Author, Strand) LIKE '%$filtervalues%'";
-    $query_run = mysqli_query($con, $select_query);
-
-    //to display in table
-    if(mysqli_num_rows($query_run) > 0){
-        foreach($query_run as $row){
-          
-          ?>
-            <tr>
-                <td><?php echo $row['Research_Title']; ?></td>
-                <td><?php echo $row['Author']; ?></td>
-                <td><?php echo $row['Date_Added']; ?></td>
-            </tr>
-          <?php
-        }   
-    }
-  }
-}
-
-function search_humms(){
-  global $con;
-  if(isset($_GET['search'])){
-    //condition para ma search by research title at author
-    $filtervalues = $_GET['search'];
-    $select_query = "Select *from `research_humss` where CONCAT(Research_Title, Author, Strand) LIKE '%$filtervalues%'";
-    $query_run = mysqli_query($con, $select_query);
-
-    //to display in table
-    if(mysqli_num_rows($query_run) > 0){
-        foreach($query_run as $row){
-          
-          ?>
-            <tr>
-                <td><?php echo $row['Research_Title']; ?></td>
-                <td><?php echo $row['Author']; ?></td>
-                <td><?php echo $row['Date_Added']; ?></td>
-            </tr>
-          <?php
-        }   
-    }
-  }
-}
-
-function search_abm(){
-  global $con;
-  if(isset($_GET['search'])){
-    $filtervalues = $_GET['search'];
-    $select_query = "Select *from `research_abm` where CONCAT(Research_Title, Author, Strand) LIKE '%$filtervalues%'";
-    $query_run = mysqli_query($con, $select_query);
-
-    //to display in table
-    if(mysqli_num_rows($query_run) > 0){
-        foreach($query_run as $row){
-          
-          ?>
-            <tr>
-                <td><?php echo $row['Research_Title']; ?></td>
-                <td><?php echo $row['Author']; ?></td>
-                <td><?php echo $row['Date_Added']; ?></td>
-            </tr>
-          <?php
-        }   
-    }
-  }
-}
-//end of search function
-
 //display documents in student dashboard
 function display_stem_home(){
   global $con;
@@ -406,35 +333,6 @@ function search_humms_hp(){
 }
 //end of search in homepage STRANDS
 
-
-//search for students
-/*function search_student(){
-  global $con;
-  if(isset($_GET['search'])){
-    //condition para ma search by research title at author
-    $filtervalues = $_GET['search'];
-    $select_query = "Select *from `user_registration` where CONCAT(Name) LIKE '%$filtervalues%'";
-    $query_run = mysqli_query($con, $select_query);
-
-    //to display in table
-    if(mysqli_num_rows($query_run) > 0){
-        foreach($query_run as $row){
-          ?>
-            <tr>
-                <td><?php echo $row['Name']; ?></td>
-                <td><?php echo $row['Email']; ?></td>
-                <td><?php echo $row['Grade_Level']; ?></td>
-                <td>
-                      <button><a href="delete_student.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to Delete?')">Delete</a></button>
-                </td>
-            </tr>
-                <?php
-          
-        }
-    }
-  }
-}
-//end of search for students*/
 ?>
 
 

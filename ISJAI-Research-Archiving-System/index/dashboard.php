@@ -23,12 +23,12 @@ include('../php functions/common_functions.php');
             <span class="logo_name">ISJAI</span>
         </div>
         <ul class="nav_links">
-            <li><a href="./dashboard.php" class="records"><i class='bx bxs-data'></i><span class="link_name">Student Records</span></a></li>
-            <li><a href="./dashboard-documents.php" class="docs"><i class='bx bxs-file'></i><span class="link_name">Research Documents</span></a></li>
+            <li><a href="dashboard.php" class="records"><i class='bx bxs-data'></i><span class="link_name">Student Records</span></a></li>
+            <li><a href="dashboard-documents-strands.php" class="docs"><i class='bx bxs-file'></i><span class="link_name">Research Documents</span></a></li>
             <li><a href="add_stem.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add STEM Document</span></a></li>
             <li><a href="add_abm.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add ABM Document</span></a></li>
             <li><a href="add_humms.php" class="adding"><i class='bx bxs-file-plus'></i><span class="link_name">Add HUMSS Document</span></a></li>
-            <li><a href="./dashboard-user.php" class="user"><i class='bx bxs-user-circle'></i><span class="link_name">Admin</span></a></li>
+            <li><a href="dashboard-user.php" class="user"><i class='bx bxs-user-circle'></i><span class="link_name">Admin</span></a></li>
             <li><a href="logout.php" class="log-out" onclick="return confirm('Are you sure you want to Log Out?')"><i class='bx bx-log-out'></i><span class="link_name">Logout</span></a></li>
         </ul>
     </div>
@@ -44,7 +44,7 @@ include('../php functions/common_functions.php');
             <?php
             if(isset($_GET['search'])){
                 $filtervalues = $_GET['search'];
-                $select_query = "Select *from `user_registration` where CONCAT(Name) LIKE '%$filtervalues%'";
+                $select_query = "Select *from `user_registration` where CONCAT(Name, Grade_Level) LIKE '%$filtervalues%'";
             }else{
                 $select_query = "Select *from `user_registration`";
             }
