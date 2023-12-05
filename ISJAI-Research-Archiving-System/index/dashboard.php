@@ -3,8 +3,6 @@
 session_start();
 include('../php connect/connect.php');
 include('../php functions/common_functions.php');
-$select_query = "Select *from `user_registration`";
-$result = mysqli_query($con, $select_query);
 ?>
 
 <!-- HTML Start -->
@@ -43,6 +41,15 @@ $result = mysqli_query($con, $select_query);
             </div>
             <div class="search-box">
             <label for="search-user">
+            <?php
+            if(isset($_GET['search'])){
+                $filtervalues = $_GET['search'];
+                $select_query = "Select *from `user_registration` where CONCAT(Name) LIKE '%$filtervalues%'";
+            }else{
+                $select_query = "Select *from `user_registration`";
+            }
+                $query_run = mysqli_query($con, $select_query);
+            ?>
             <form action="#" method="get">
                     <input name="search" type="text" id="search" class="search-box" placeholder="Search..." autocomplete=off>
                     <a href="#"><i class='bx bx-search'></i></a>
@@ -62,11 +69,20 @@ $result = mysqli_query($con, $select_query);
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
                     <?php
-                        search_student();
+                    while($row = mysqli_fetch_array($query_run)){
                     ?>
+                    <tr>
+                        <td><?php echo $row['Name']; ?></td>
+                        <td><?php echo $row['Email']; ?></td>
+                        <td><?php echo $row['Grade_Level']; ?></td>
+                        <td>
+                            <button><a href="delete_student.php?id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to Delete?')">Delete</a></button>
+                        </td>
                     </tr>
+                    <?php
+                    }
+                    ?>
                 </tbody>
             </table>
         </div>

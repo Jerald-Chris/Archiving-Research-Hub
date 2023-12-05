@@ -408,7 +408,7 @@ function search_humms_hp(){
 
 
 //search for students
-function search_student(){
+/*function search_student(){
   global $con;
   if(isset($_GET['search'])){
     //condition para ma search by research title at author
@@ -434,7 +434,7 @@ function search_student(){
     }
   }
 }
-//end of search for students
+//end of search for students*/
 ?>
 
 
