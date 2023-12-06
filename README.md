@@ -23,3 +23,5 @@ Back-End Server: XAMPP Server PHP MyAdmin <br><br>
 Hardware: Desktop Computer, Laptop and peripherals
 
 
+Dashboard GUI:
+![homepage](images/main-dashboard.png)
