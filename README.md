@@ -23,5 +23,9 @@ Back-End Server: XAMPP Server PHP MyAdmin <br><br>
 Hardware: Desktop Computer, Laptop and peripherals
 
 
-Dashboard GUI: <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/main-dashboard.png)
+Student Homapage GUI: <br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/main-dashboard.png) <br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/stem-page.png) <br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/abm-page.png) <br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br>
