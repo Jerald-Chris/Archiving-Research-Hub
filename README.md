@@ -17,6 +17,9 @@ Project Summary: <br>
     The sole purpose of this project is to provide a dedicated space for students to view research documents, collaborate with other students and enhance their critical thinking, problem-solving, and analytical skills. Our goal is to encourage innovation and the exploration of diverse fields of study, empowering students to become lifelong learners and proactive contributors to the world of knowledge. Align with the SDG (Sustainable Development Goals) for this system, **SDG No.4 – Quality Education**. This is to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. On a broad perspective, all SDG’s can also be aligned for it supports all manuscripts involved in their practical research.
 
 Technologies Used: <br>
-Software: Web Browsers: Google Chrome, Brave, and Opera GX && IDE: Visual Studio Code (VSC) && Back-End Server: XAMPP Server PHP MyAdmin | Hardware: Desktop Computer, Laptop and peripherals
+Software: Web Browsers: Google Chrome, Brave, and Opera GX <br> 
+IDE: Visual Studio Code (VSC) <br>
+Back-End Server: XAMPP Server PHP MyAdmin <br><br>
+Hardware: Desktop Computer, Laptop and peripherals
 
 
