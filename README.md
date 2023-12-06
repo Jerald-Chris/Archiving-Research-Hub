@@ -18,7 +18,7 @@ Project Summary: <br>
 
 Technologies Used: <br>
 Software: Web Browsers: Google Chrome, Brave, and Opera GX <br> 
-IDE: Visual Studio Code (VSC) <br>
+IDE: Visual Studio Code (HTML, CSS, JavaScript and PHP) <br>
 Back-End Server: XAMPP Server PHP MyAdmin <br><br>
 Hardware: Desktop Computer, Laptop and peripherals
 
