@@ -23,9 +23,16 @@ Back-End Server: XAMPP Server PHP MyAdmin <br><br>
 Hardware: Desktop Computer, Laptop and peripherals
 
 
-Student Homapage GUI: <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/main-dashboard.png) <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/stem-page.png) <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/abm-page.png) <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br>
-![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br>
+Student Homapage GUI: <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/main-dashboard.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/stem-page.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/abm-page.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/readmore-page.png) <br><br>
+
+Admin Dashboard GUI: <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-admin.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-documents.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-strands-docs.png) <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/add-documents-page.png) <br><br>
+
