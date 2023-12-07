@@ -21,11 +21,13 @@ if(!isset($_SESSION['admin_name'])) {
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <!-- Sidebar --> 
     <div class="sidebar">
         <div class="logo_details">
             <a href="./dashboard.php" class="logo"><img src="../images/logo.png" alt="ISJAI Logo"></a>
             <span class="logo_name">ISJAI</span>
         </div>
+        <!-- Sidebar Links --> 
         <ul class="nav_links">
             <li><a href="dashboard.php" class="records"><i class='bx bxs-data'></i><span class="link_name">Student Records</span></a></li>
             <li><a href="dashboard-documents-strands.php" class="docs"><i class='bx bxs-file'></i><span class="link_name">Research Documents</span></a></li>
@@ -36,7 +38,7 @@ if(!isset($_SESSION['admin_name'])) {
             <li><a href="logout.php" class="log-out" onclick="return confirm('Are you sure you want to Log Out?')"><i class='bx bx-log-out'></i><span class="link_name">Logout</span></a></li>
         </ul>
     </div>
-
+    <!-- Dashboard Section --> 
     <section class="dashboard">
         <nav>
             <div class="menu">
@@ -44,13 +46,13 @@ if(!isset($_SESSION['admin_name'])) {
                 <span class="dashboard-admin">USER DETAILS</span>
             </div>
         </nav>
-    
+        <!-- Admin Details --> 
         <div class="about-user">
             <h2 class="admin-name">Admin Name: <?php echo $_SESSION['admin_name']; ?></h2>
             <h2 class="admin-email">Email Address: <?php echo $_SESSION['admin_email']; ?></h2>
         </div>
     </section>
-
+    <!-- Link to JavaScript --> 
     <script src="../js/sidebar.js"></script>
     
 </body>
