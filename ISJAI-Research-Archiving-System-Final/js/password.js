@@ -1,3 +1,4 @@
+//Check Password Visibility//
 let check = document.getElementById("check");
 let password = document.getElementById("password");
 
