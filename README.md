@@ -8,10 +8,10 @@ IT 314 - Web Systems and Technologies <br>
 BSIT - 3107 <br><br>
 System Grade: 90% <br><br>
 Members:
-1. Acosta, Hans Rafael B. | Member Grade: 24/100 <br> System and Web Design, and Data Entry <br>
-2. De Castro, Mark Rafael V. | Member Grade: 30/100 <br> Back-End Development <br>
-3. De Villa, Jefferson A. | Member Grade: 16/100 <br> Data Entry and Documentation <br>
-4. Maralit, Chris Jerald G. | Member Grade: 30/100 <br> Front-End Development, Back-End Development and Documentation <br>
+1. Acosta, Hans Rafael B. | Member Grade: 24/100 <br> Reason: System and Web Design, and Data Entry <br>
+2. De Castro, Mark Rafael V. | Member Grade: 30/100 <br>  Reason: Back-End Development <br>
+3. De Villa, Jefferson A. | Member Grade: 16/100 <br>  Reason: Data Entry and Documentation <br>
+4. Maralit, Chris Jerald G. | Member Grade: 30/100 <br>  Reason: Front-End Development, Back-End Development and Documentation <br>
 
 **Project Objective** <br>
 General Objective <br>
