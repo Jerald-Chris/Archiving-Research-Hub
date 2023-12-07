@@ -1,4 +1,4 @@
-**ARCHIVING RESEARCH HUB SYSTEM FOR SENIOR HIGH SCHOOL STUDENTS IN IBAAN SAINT JAMES ACADEMY, INC.**
+![image](https://github.com/Jerald-Chris/Archiving-Research-Hub/assets/144607336/73cad49b-1e71-4183-8625-2d9f6719aa2e)**ARCHIVING RESEARCH HUB SYSTEM FOR SENIOR HIGH SCHOOL STUDENTS IN IBAAN SAINT JAMES ACADEMY, INC.**
 
 FINAL PROJECT: <br>
 IT 311 - System Administration and Maintenance <br>
@@ -30,6 +30,14 @@ Software: Web Browsers: Google Chrome, Brave, and Opera GX <br>
 IDE: Visual Studio Code (HTML, CSS, JavaScript and PHP) <br>
 Back-End Server: XAMPP Server PHP MyAdmin <br><br>
 Hardware: Desktop Computer, Laptop and peripherals
+
+To test the Admin Login:
+Admin Email Address: cjgm0920@gmail.com
+Password: MxLWAsKm1$
+
+To test the Student Login:
+Student Email Address: markaldrinacebo@gmail.com
+Password: Coffeejelly1$
 
 
 **Student Homapage GUI** <br><br>
