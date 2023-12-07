@@ -20,6 +20,7 @@ if(!isset($_SESSION['admin_name'])) {
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <!-- Sidebar --> 
     <div class="sidebar">
         <div class="logo_details">
             <a href="./dashboard.php" class="logo"><img src="../images/logo.png" alt="ISJAI Logo"></a>
@@ -35,7 +36,7 @@ if(!isset($_SESSION['admin_name'])) {
             <li><a href="logout.php" class="log-out" onclick="return confirm('Are you sure you want to Log Out?')"><i class='bx bx-log-out'></i><span class="link_name">Logout</span></a></li>
         </ul>
     </div>
-
+     <!-- Dashboard Section --> 
     <section class="dashboard">
         <nav>
             <div class="menu">
@@ -51,13 +52,13 @@ if(!isset($_SESSION['admin_name'])) {
                 </form>
             </div>
         </nav>
-
+    <!-- Strand Choose Buttons --> 
     <div class="strands-docs">
         <a href="dashboard-documents-stem.php" button type="button" class="button-docs">STEM</button></a>
         <a href="dashboard-documents-abm.php" button type="button" class="button-docs">ABM</button></a>
         <a href="dashboard-documents-humss.php" button type="button" class="button-docs">HUMSS</button></a>
     </div>
-
+    <!-- Link to JavaScript --> 
     <script src="../js/sidebar.js"></script>
 
 </body>
