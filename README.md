@@ -15,7 +15,7 @@ Members:
 3. De Villa, Jefferson A. | Member Grade: 16/100 <br> Data Entry and Documentation <br>
 4. Maralit, Chris Jerald G. | Member Grade: 30/100 <br> Front-End Development, Back-End Development and Documentation <br>
 
-Project Objective <br><br>
+Project Objective <br>
 General Objective <br>
 - To develop an archiving research hub architecture with the existing system of Ibaan Saint James Academy, Inc. <br>
 
