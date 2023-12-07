@@ -18,6 +18,8 @@ body {
     min-height: 100vh;
 }
 
+/*main-wrapper-content-css*/
+
 .box {
     width: 1400px;
     height: 720px;
@@ -54,6 +56,8 @@ body {
     font-family: 'Gabarito', sans-serif;
     margin: 25px;
 }
+
+/*content-button-css*/
 
 .contentbox button.back {
     position: relative;
