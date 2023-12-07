@@ -26,6 +26,10 @@ Hardware: Desktop Computer, Laptop and peripherals
 
 
 Student Homapage GUI: <br><br>
+Register Page <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/register-page.png) <br><br>
+Student Login Page <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/student-login-page.png) <br><br>
 Main Dashboard <br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/main-dashboard.png) <br><br>
 STEM Documents Page <br><br>
@@ -38,6 +42,8 @@ View Documents Page <br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/readmore-page.png) <br><br>
 
 Admin Dashboard GUI: <br><br>
+Admin Login Page <br><br>
+![homepage](ISJAI-Research-Archiving-System-Final/images/admin-login-page.png) <br><br>
 Student Records Dashboard<br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-admin.png) <br><br>
 Research Records Dashboard<br><br>
