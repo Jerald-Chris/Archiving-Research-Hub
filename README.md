@@ -10,10 +10,20 @@ BSIT - 3107
 System Grade: 90%
 <br><br>
 Members:
-1. Acosta, Hans Rafael B. | Member Grade: 24/100 - System and Web Design, and Data Entry <br>
-2. De Castro, Mark Rafael V. | Member Grade: 30/100 - Back-End Development <br>
-3. De Villa, Jefferson A. | Member Grade: 16/100 - Data Entry and Documentation <br>
-4. Maralit, Chris Jerald G. | Member Grade: 30/100 - Front-End Development, Back-End Development and Documentation <br>
+1. Acosta, Hans Rafael B. | Member Grade: 24/100 <br> System and Web Design, and Data Entry <br>
+2. De Castro, Mark Rafael V. | Member Grade: 30/100 <br> Back-End Development <br>
+3. De Villa, Jefferson A. | Member Grade: 16/100 <br> Data Entry and Documentation <br>
+4. Maralit, Chris Jerald G. | Member Grade: 30/100 <br> Front-End Development, Back-End Development and Documentation <br>
+
+Project Objective <br><br>
+General Objective <br>
+- To develop an archiving research hub architecture with the existing system of Ibaan Saint James Academy, Inc. <br><br>
+
+Specific Objectives that aim to: <br>
+• To establish core competencies of its personnel and stakeholders and to provide a feasible and efficient systematized process in the pursuit of quality education. <br>
+• To collate previous physical manuscripts to turn into digital means of information. <br>
+• To consolidate stored data for reliable resource allocation for future research purposes. <br><br>
+
 
 Project Summary: <br>
     The sole purpose of this project is to provide a dedicated space for students to view research documents, collaborate with other students and enhance their critical thinking, problem-solving, and analytical skills. Our goal is to encourage innovation and the exploration of diverse fields of study, empowering students to become lifelong learners and proactive contributors to the world of knowledge. Align with the SDG (Sustainable Development Goals) for this system, **SDG No.4 – Quality Education**. This is to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. On a broad perspective, all SDG’s can also be aligned for it supports all manuscripts involved in their practical research.
