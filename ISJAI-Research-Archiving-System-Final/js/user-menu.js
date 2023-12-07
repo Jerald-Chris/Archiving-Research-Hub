@@ -1,3 +1,4 @@
+//Drop-down user menu toggle visibility//
 let subMenu = document.getElementById("subMenu");
 
 function toggleMenu(){
