@@ -29,15 +29,15 @@ Specific Objectives that aim to: <br>
 Software: Web Browsers: Google Chrome, Brave, and Opera GX <br> 
 IDE: Visual Studio Code (HTML, CSS, JavaScript and PHP) <br>
 Back-End Server: XAMPP Server PHP MyAdmin <br><br>
-Hardware: Desktop Computer, Laptop and peripherals
+Hardware: Desktop Computer, Laptop and peripherals <br><br>
 
-To test the Admin Login:
-Admin Email Address: cjgm0920@gmail.com
+To test the Admin Login: <br>
+Admin Email Address: cjgm0920@gmail.com <br>
 Password: MxLWAsKm1$
 
-To test the Student Login:
-Student Email Address: markaldrinacebo@gmail.com
-Password: Coffeejelly1$
+To test the Student Login: <br>
+Student Email Address: markaldrinacebo@gmail.com <br>
+Password: Coffeejelly1$ <br>
 
 
 **Student Homapage GUI** <br><br>
