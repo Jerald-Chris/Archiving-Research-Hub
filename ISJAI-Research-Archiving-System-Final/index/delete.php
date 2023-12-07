@@ -1,3 +1,4 @@
+<!-- Delete Record --> 
 <?php
 include("../php connect/connect.php");
 $id=$_GET['ID'];
