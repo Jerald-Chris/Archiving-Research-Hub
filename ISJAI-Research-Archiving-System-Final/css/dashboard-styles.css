@@ -13,6 +13,8 @@ body {
   width: 100%;
 }
 
+/*sidebar-content-css*/
+
 .sidebar {
   position: fixed;
   height: 100%;
@@ -94,6 +96,8 @@ body {
   left: 60px;
 }
 
+/*dashboard-content-css*/
+
 .dashboard {
   background: #ffffff;
   position: relative;
@@ -169,6 +173,8 @@ body {
 .dashboard nav .search-box i:hover {
   background-color: #1e613e;
 }
+
+/*student-records-content-css*/
 
 .students-details {
   background: #ffffff;
