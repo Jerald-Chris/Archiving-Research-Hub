@@ -92,7 +92,7 @@ if(isset($_POST['register-submit'])) {
             </div>
         </div>
     </footer>
-    
+     <!--JavaScript Links-->
     <script src="../js/password.js"></script>
 </body>
 </html>
