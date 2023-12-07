@@ -17,7 +17,7 @@ Members:
 
 Project Objective <br>
 General Objective <br>
-To develop an archiving research hub architecture with the existing system of Ibaan Saint James Academy, Inc. <br>
+To develop an archiving research hub architecture with the existing system of Ibaan Saint James Academy, Inc. <br><br>
 Specific Objectives that aim to: <br>
 • To establish core competencies of its personnel and stakeholders and to provide a feasible and efficient systematized process in the pursuit of quality education. <br>
 • To collate previous physical manuscripts to turn into digital means of information. <br>
