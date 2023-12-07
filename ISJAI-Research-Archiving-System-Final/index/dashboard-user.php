@@ -4,9 +4,9 @@ session_start();
 error_reporting(E_ERROR);
 include('../php connect/connect.php');
 include('../php functions/common_functions.php');
-$select_query = "Select *from `user_registration`";
-$result = mysqli_query($con, $select_query);
-$row = mysqli_fetch_assoc($result);
+if(!isset($_SESSION['admin_name'])) {
+    header('location: login.php');
+}
 ?>
 
 <!-- HTML Start -->

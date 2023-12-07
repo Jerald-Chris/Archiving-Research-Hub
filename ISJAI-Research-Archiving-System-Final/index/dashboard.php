@@ -3,6 +3,9 @@
 session_start();
 include('../php connect/connect.php');
 include('../php functions/common_functions.php');
+if(!isset($_SESSION['admin_name'])) {
+    header('location: login.php');
+}
 ?>
 
 <!-- HTML Start -->
