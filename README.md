@@ -5,8 +5,7 @@ IT 311 - System Administration and Maintenance <br>
 IT 312 - System Integration and Architecture <br>
 IT 313 - Sytem Analysis and Design <br>
 IT 314 - Web Systems and Technologies <br>
-BSIT - 3107 
-<br>
+BSIT - 3107 <br><br>
 System Grade: 90% <br><br>
 Members:
 1. Acosta, Hans Rafael B. | Member Grade: 24/100 <br> System and Web Design, and Data Entry <br>
