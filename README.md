@@ -1,6 +1,6 @@
 ARCHIVING RESEARCH HUB SYSTEM FOR SENIOR HIGH SCHOOL STUDENTS IN IBAAN SAINT JAMES ACADEMY, INC.
 
-FINAL PROJECT:
+FINAL PROJECT: <br>
 IT 311 - System Administration and Maintenance <br>
 IT 312 - System Integration and Architecture <br>
 IT 313 - Sytem Analysis and Design <br>
