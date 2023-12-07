@@ -1,4 +1,4 @@
-ARCHIVING RESEARCH HUB SYSTEM FOR SENIOR HIGH SCHOOL STUDENTS IN IBAAN SAINT JAMES ACADEMY, INC.
+* ARCHIVING RESEARCH HUB SYSTEM FOR SENIOR HIGH SCHOOL STUDENTS IN IBAAN SAINT JAMES ACADEMY, INC.
 
 FINAL PROJECT: <br>
 IT 311 - System Administration and Maintenance <br>
@@ -15,10 +15,10 @@ Members:
 3. De Villa, Jefferson A. | Member Grade: 16/100 - Data Entry and Documentation <br>
 4. Maralit, Chris Jerald G. | Member Grade: 30/100 - Front-End Development, Back-End Development and Documentation <br>
 
-Project Summary: <br>
+*Project Summary: <br>
     The sole purpose of this project is to provide a dedicated space for students to view research documents, collaborate with other students and enhance their critical thinking, problem-solving, and analytical skills. Our goal is to encourage innovation and the exploration of diverse fields of study, empowering students to become lifelong learners and proactive contributors to the world of knowledge. Align with the SDG (Sustainable Development Goals) for this system, **SDG No.4 – Quality Education**. This is to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. On a broad perspective, all SDG’s can also be aligned for it supports all manuscripts involved in their practical research.
 
-Technologies Used: <br>
+*Technologies Used: <br>
 Software: Web Browsers: Google Chrome, Brave, and Opera GX <br> 
 IDE: Visual Studio Code (HTML, CSS, JavaScript and PHP) <br>
 Back-End Server: XAMPP Server PHP MyAdmin <br><br>
@@ -32,12 +32,18 @@ STEM Documents Page <br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/stem-page.png) <br><br>
 ABM Documents Page <br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/abm-page.png) <br><br>
+HUMSS Documents Page
 ![homepage](ISJAI-Research-Archiving-System-Final/images/humss-page.png) <br><br>
+View Documents Page <br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/readmore-page.png) <br><br>
 
 Admin Dashboard GUI: <br><br>
+Student Records Dashboard<br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-admin.png) <br><br>
+Research Records Dashboard<br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-documents.png) <br><br>
+Research Strands/Categories Dashboard<br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/dashboard-strands-docs.png) <br><br>
+Add Documents Page<br><br>
 ![homepage](ISJAI-Research-Archiving-System-Final/images/add-documents-page.png) <br><br>
 
