@@ -1,7 +1,10 @@
+<!--PHP Connection-->
 <?php
 include("../php connect/connect.php");
 include("../php functions/common_functions.php");
 ?>
+
+<!-- HTML Start -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +15,12 @@ include("../php functions/common_functions.php");
     <title>Read More</title>
 </head>
 <body>
+    <!--Content Section-->
     <div class="box">
             <div class="contentbox">
+            <!--Back Button-->
             <button class="back"><a href="../index/humss-page.php">&lt; &nbsp Previous</a></button>
+            <!--PHP Connection Select Query to display research-->
             <?php
                     if(isset($_POST["ID"])) {
                     $id = $_POST["ID"];
@@ -30,6 +36,7 @@ include("../php functions/common_functions.php");
                     <p><?php echo $row['Author']; ?></p>
                 <h2>Date Published</h2>
                     <p><?php echo $row['Date_Added']; ?></p>
+                 <!--Open File to Google Drive Link-->
                 <button class="link"><h3 class="glink"><a target="_blank" href="<?php echo $row['Link']; ?>">Open File Here</a></h3></button>
                     <?php
                         }
