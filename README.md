@@ -6,7 +6,6 @@ IT 312 - System Integration and Architecture <br>
 IT 313 - Sytem Analysis and Design <br>
 IT 314 - Web Systems and Technologies <br>
 BSIT - 3107 <br><br>
-System Grade: 90% <br><br>
 Members:
 1. Acosta, Hans Rafael B. | Member Grade: 24/100 <br> Reason: System and Web Design, and Data Entry <br>
 2. De Castro, Mark Rafael V. | Member Grade: 30/100 <br>  Reason: Back-End Development <br>
