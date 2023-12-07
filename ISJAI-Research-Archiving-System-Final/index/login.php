@@ -74,7 +74,7 @@ login();
             </div>
         </div>
     </footer>
-
+     <!--JavaScript Links-->
     <script src="../js/password.js"></script>
 </body>
 </html>
