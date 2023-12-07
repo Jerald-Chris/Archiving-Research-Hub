@@ -16,9 +16,8 @@ Members:
 4. Maralit, Chris Jerald G. | Member Grade: 30/100 <br> Front-End Development, Back-End Development and Documentation <br>
 
 Project Objective <br>
-\tGeneral Objective <br>
+General Objective <br>
 To develop an archiving research hub architecture with the existing system of Ibaan Saint James Academy, Inc. <br>
-
 Specific Objectives that aim to: <br>
 • To establish core competencies of its personnel and stakeholders and to provide a feasible and efficient systematized process in the pursuit of quality education. <br>
 • To collate previous physical manuscripts to turn into digital means of information. <br>
