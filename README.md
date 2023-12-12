@@ -7,9 +7,9 @@ IT 313 - Sytem Analysis and Design <br>
 IT 314 - Web Systems and Technologies <br>
 BSIT - 3107 <br><br>
 Members:
-1. Acosta, Hans Rafael B. | Member Grade: 24% <br> Reason: System and Web Design, and Data Entry <br>
+1. Acosta, Hans Rafael B. | Member Grade: 20% <br> Reason: System and Web Design, and Data Entry <br>
 2. De Castro, Mark Rafael V. | Member Grade: 30% <br>  Reason: Back-End Development <br>
-3. De Villa, Jefferson A. | Member Grade: 16% <br>  Reason: Data Entry and Documentation <br>
+3. De Villa, Jefferson A. | Member Grade: 20% <br>  Reason: Data Entry and Documentation <br>
 4. Maralit, Chris Jerald G. | Member Grade: 30% <br>  Reason: Front-End Development, Back-End Development and Documentation <br>
 
 **Project Objective** <br>
